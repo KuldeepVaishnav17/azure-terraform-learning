@@ -1,0 +1,9 @@
+resource_group_name = "rg-terraform-learning"
+
+storage_account_name = "stkuldeep280849829"
+
+container_name = "app-data"
+
+blob_name = "terraform-demo.txt"
+
+blob_content = "This file was created in Azure Blob Storage using Terraform."
