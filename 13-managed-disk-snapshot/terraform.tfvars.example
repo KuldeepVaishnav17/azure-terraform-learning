@@ -1,0 +1,5 @@
+resource_group_name = "rg-terraform-learning"
+location            = "centralindia"
+managed_disk_name   = "disk-terraform-data-01"
+snapshot_name       = "snapshot-terraform-data-01"
+environment         = "learning"
