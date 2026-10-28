@@ -1,0 +1,9 @@
+resource_group_name = "rg-terraform-learning"
+
+vnet_name = "vnet-terraform-learning"
+
+subnet_name = "snet-web"
+
+subnet_address_prefixes = [
+  "10.0.1.0/24"
+]
