@@ -1,0 +1,6 @@
+resource_group_name  = "rg-terraform-learning"
+location             = "centralindia"
+disk_name            = "disk-terraform-data-01"
+storage_account_type = "Standard_LRS"
+disk_size_gb         = 4
+environment          = "learning"
