@@ -1,0 +1,7 @@
+resource_group_name = "rg-terraform-learning"
+location            = "centralindia"
+
+acr_name = "acrkuldeep326337696"
+acr_sku  = "Basic"
+
+environment = "learning"
