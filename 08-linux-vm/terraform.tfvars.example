@@ -1,0 +1,13 @@
+resource_group_name = "rg-terraform-learning"
+location            = "centralindia"
+
+nic_name = "nic-terraform-web-01"
+
+vm_name = "vm-terraform-web-01"
+vm_size = "Standard_DC1s_v3"
+
+admin_username = "azureuser"
+
+ssh_public_key_path = "~/.ssh/terraform-azure-key.pub"
+
+environment = "learning"
