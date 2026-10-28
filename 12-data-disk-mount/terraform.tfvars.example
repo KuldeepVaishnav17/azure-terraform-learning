@@ -1,0 +1,5 @@
+resource_group_name = "rg-terraform-learning"
+location            = "centralindia"
+vm_name             = "vm-terraform-web-01"
+run_command_name    = "mount-data-disk"
+mount_point         = "/data"
