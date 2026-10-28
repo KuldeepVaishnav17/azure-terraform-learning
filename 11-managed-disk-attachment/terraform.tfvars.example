@@ -1,0 +1,5 @@
+resource_group_name = "rg-terraform-learning"
+vm_name             = "vm-terraform-web-01"
+managed_disk_name   = "disk-terraform-data-01"
+lun                 = 0
+caching             = "ReadWrite"
