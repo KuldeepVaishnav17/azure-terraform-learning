@@ -1,0 +1,9 @@
+resource_group_name = "rg-terraform-learning"
+location            = "centralindia"
+
+STORAGE_ACCOUNT="stkuldeep280849829"
+
+account_tier     = "Standard"
+replication_type = "LRS"
+
+environment = "learning"
