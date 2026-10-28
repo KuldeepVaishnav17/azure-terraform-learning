@@ -1,0 +1,15 @@
+resource_group_name = "rg-terraform-learning"
+location            = "centralindia"
+
+nic_name                  = "nic-terraform-web-01"
+nic_ip_configuration_name = "ipconfig1"
+
+lb_name           = "lb-terraform-web"
+lb_public_ip_name = "pip-terraform-lb"
+
+frontend_name     = "frontend-public"
+backend_pool_name = "backend-web"
+probe_name        = "http-health-probe"
+rule_name         = "http-load-balancing-rule"
+
+environment = "learning"
