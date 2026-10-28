@@ -1,0 +1,4 @@
+resource_group_name = "rg-terraform-learning"
+location            = "centralindia"
+nsg_name            = "nsg-web"
+environment         = "learning"
