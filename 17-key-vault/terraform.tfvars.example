@@ -1,0 +1,9 @@
+resource_group_name = "rg-terraform-learning"
+location            = "centralindia"
+
+key_vault_name = "kvkuldeep160471009"
+
+sku_name                   = "standard"
+soft_delete_retention_days = 7
+
+environment = "learning"
